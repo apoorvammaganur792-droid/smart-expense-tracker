@@ -25,3 +25,8 @@ __pycache__/
 
 # Virtual environment
 venv/
+.env
+__pycache__/
+*.pyc
+testenv/
+venv/
