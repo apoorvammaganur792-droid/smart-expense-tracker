@@ -1,110 +1,116 @@
-# Smart Expense Tracker
+\# Smart Expense Tracker
 
-# 
 
-# A full-stack web application for managing personal expenses and monthly budgets.
 
-# 
+A full-stack web application for managing personal expenses and monthly budgets.
 
-# 🚀 Features
 
-# 
 
-# \- User registration and login
+\## Features
 
-# \- JWT authentication
 
-# \- Add, edit, and delete expenses
 
-# \- Expense categories
+\- User registration and login
 
-# \- Search and filter expenses
+\- JWT authentication
 
-# \- Monthly budget management
+\- Add, edit, and delete expenses
 
-# \- Budget usage and remaining balance
+\- Expense categories
 
-# \- Spending charts and analytics
+\- Search and filter expenses
 
-# 
+\- Monthly budget management
 
-# \## 🛠️ Tech Stack
+\- Budget usage and remaining balance
 
-# 
+\- Spending charts and analytics
 
-# \*\*Frontend\*\*
 
-# \- React
 
-# \- Vite
+\## Tech Stack
 
-# \- JavaScript
 
-# \- CSS
 
-# \- Recharts
+\### Frontend
 
-# 
 
-# \*\*Backend\*\*
 
-# \- FastAPI
+\- React
 
-# \- Python
+\- Vite
 
-# \- SQLAlchemy
+\- JavaScript
 
-# \- JWT
+\- CSS
 
-# \- Pydantic
+\- Recharts
 
-# 
 
-# \*\*Database\*\*
 
-# \- PostgreSQL
+\### Backend
 
-# 
 
-# \## 📁 Project Structure
 
-# 
+\- FastAPI
 
-# ```text
+\- Python
 
-# smart-expense-tracker/
+\- SQLAlchemy
 
-# ├── backend/
+\- JWT
 
-# │   └── app/
+\- Pydantic
 
-# │       ├── routes/
 
-# │       ├── database.py
 
-# │       ├── models.py
+\### Database
 
-# │       ├── schemas.py
 
-# │       └── main.py
 
-# │
+\- PostgreSQL
 
-# ├── frontend/
 
-# │   └── src/
 
-# │       ├── App.jsx
+\## Project Structure
 
-# │       ├── Login.jsx
 
-# │       ├── Register.jsx
 
-# │       └── api.js
+```text
 
-# │
+smart-expense-tracker/
 
-# ├── .gitignore
+├── backend/
 
-# └── README.md
+│   └── app/
+
+│       ├── routes/
+
+│       ├── database.py
+
+│       ├── models.py
+
+│       ├── schemas.py
+
+│       └── main.py
+
+│
+
+├── frontend/
+
+│   └── src/
+
+│       ├── App.jsx
+
+│       ├── Login.jsx
+
+│       ├── Register.jsx
+
+│       └── api.js
+
+│
+
+├── .gitignore
+
+└── README.md
 
