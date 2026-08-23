@@ -1,96 +1,30 @@
-# \# Smart Expense Tracker
+# Smart Expense Tracker
 
 # 
 
-# A full-stack expense tracking and monthly budget management application built with \*\*React, FastAPI, PostgreSQL, and JWT authentication\*\*.
+# A full-stack web application for managing personal expenses and monthly budgets.
 
 # 
 
-# \## 🚀 Project Status
+# 🚀 Features
 
 # 
 
-# ✅ Core Features Completed
+# \- User registration and login
 
-# 
+# \- JWT authentication
 
-# \## ✨ Features
+# \- Add, edit, and delete expenses
 
-# 
+# \- Expense categories
 
-# \### 🔐 Authentication
+# \- Search and filter expenses
 
-# 
+# \- Monthly budget management
 
-# \- User registration
+# \- Budget usage and remaining balance
 
-# \- User login
-
-# \- JWT-based authentication
-
-# \- Protected API routes
-
-# \- Logout functionality
-
-# \- Automatic authentication expiration handling
-
-# 
-
-# \### 💰 Expense Management
-
-# 
-
-# \- Add expenses
-
-# \- Edit expenses
-
-# \- Delete expenses
-
-# \- Categorize expenses
-
-# \- View expense history
-
-# \- Search expenses
-
-# \- Filter expenses by category
-
-# 
-
-# \### 🎯 Budget Management
-
-# 
-
-# \- Set monthly budget
-
-# \- Update monthly budget
-
-# \- Calculate total spending
-
-# \- Calculate remaining budget
-
-# \- Detect budget exceeded status
-
-# \- Display budget usage percentage
-
-# \- Visual budget progress indicator
-
-# 
-
-# \### 📊 Dashboard \& Analytics
-
-# 
-
-# \- Total expenses summary
-
-# \- Transaction count
-
-# \- Category summary
-
-# \- Monthly budget summary
-
-# \- Spending by category
-
-# \- Expense comparison chart
+# \- Spending charts and analytics
 
 # 
 
@@ -98,9 +32,7 @@
 
 # 
 
-# \### Frontend
-
-# 
+# \*\*Frontend\*\*
 
 # \- React
 
@@ -114,9 +46,7 @@
 
 # 
 
-# \### Backend
-
-# 
+# \*\*Backend\*\*
 
 # \- FastAPI
 
@@ -124,29 +54,15 @@
 
 # \- SQLAlchemy
 
-# \- JWT Authentication
+# \- JWT
 
 # \- Pydantic
 
 # 
 
-# \### Database
-
-# 
+# \*\*Database\*\*
 
 # \- PostgreSQL
-
-# 
-
-# \### Development Tools
-
-# 
-
-# \- Git
-
-# \- GitHub
-
-# \- VS Code
 
 # 
 
@@ -158,61 +74,33 @@
 
 # smart-expense-tracker/
 
-# │
-
 # ├── backend/
 
 # │   └── app/
 
 # │       ├── routes/
 
-# │       │   ├── auth.py
-
-# │       │   ├── budget.py
-
-# │       │   └── expenses.py
-
-# │       │
-
 # │       ├── database.py
-
-# │       ├── dependencies.py
-
-# │       ├── main.py
 
 # │       ├── models.py
 
 # │       ├── schemas.py
 
-# │       └── security.py
+# │       └── main.py
 
 # │
 
 # ├── frontend/
 
-# │   ├── src/
+# │   └── src/
 
-# │   │   ├── App.jsx
+# │       ├── App.jsx
 
-# │   │   ├── App.css
+# │       ├── Login.jsx
 
-# │   │   ├── Login.jsx
+# │       ├── Register.jsx
 
-# │   │   ├── Login.css
-
-# │   │   ├── Register.jsx
-
-# │   │   ├── Register.css
-
-# │   │   ├── api.js
-
-# │   │   └── main.jsx
-
-# │   │
-
-# │   ├── package.json
-
-# │   └── vite.config.js
+# │       └── api.js
 
 # │
 
